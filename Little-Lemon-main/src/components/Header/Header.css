@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap'); */
+
+.app__header {
+    background-color: #495E57;
+    font-family: 'Markazi Text', serif;
+    color: #EDEFEE;
+}
+
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.app__header-data {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+
+.app__header-data h1 {
+    font-size: 85px;
+    font-weight: 900;
+    color: #F4CE14;
+}
+.app__header-data h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.app__header-data p {
+    font-size: 24px;
+}
+.app__header-data button {
+    padding: 10px;
+    font-size: 28px;
+    background-color: #F4CE14;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+
+.app__header-image {
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 550px;
+
+    background-repeat: none;
+    background-position: center;
+    background-size: auto 100%;
+
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 1020px){
+    .app__header-image{
+        width: 350px;
+        height: 450px;
+    }
+
+   
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        justify-content: center;
+        gap: 25px;
+    }
+    .app__header-data {
+             width: 80%;
+    }
+
+    .app__header-image {
+        display: none;
+    }
+    
+}

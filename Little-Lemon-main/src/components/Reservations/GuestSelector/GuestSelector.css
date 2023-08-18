@@ -1,0 +1,44 @@
+/* font-family: 'Markazi Text', serif; */
+.app__reservation-guest {
+    font-family: 'Markazi Text', serif;
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px;
+
+    font-size: 48px;
+}
+.app__reservation-guest-counter-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.guest-title {
+    color: #495E57;
+}
+.app__reservation-guest-counter {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-content: center;
+
+    border-radius: 10px;
+    background-color: #495E57;
+    color: #EDEFEE;
+
+    padding: 10px;
+
+    /* diable double click selection */
+    user-select: none;
+}
+
+@media screen and (max-width: 780px) {
+    .app__reservation-guest { 
+        font-size: 28px;
+        padding: 25px;
+    }
+}
